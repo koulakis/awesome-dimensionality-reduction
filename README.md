@@ -8,10 +8,6 @@
 
 ## Methods
 
-| Year | Authors | Title | Venue | Method Abbreviation|
-|---|---|---|---|---|
-Here is the updated table with the links to the papers:
-
 | Year | Authors | Title | Venue | Method Abbreviation | Link |
 |---|---|---|---|---|---|
 | 1978 | Kruskal, Joseph B., and Myron Wish | Multidimensional scaling | Sage | MDS | [Link](http://cda.psych.uiuc.edu/psychometrika_highly_cited_articles/kruskal_1964a.pdf) |

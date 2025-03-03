@@ -1,8 +1,8 @@
 # Awesome Dimensionality Reduction [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-*Last updated 19.02.2025.*
+*Last updated 03.03.2025.*
 
-**WARNING: This list is still new and under construction! It still contains incomplete and potentially incorrect information. So use with caution.**
+**NOTE: This is an open-ended list. If you feel some method is missing or some new one is around, you are more than welcome to contribute :smile:**
 
 ## Contents
 <!-- TOC -->

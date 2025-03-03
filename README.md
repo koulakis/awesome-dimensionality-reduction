@@ -11,6 +11,7 @@
   * [Surveys](#surveys)
   * [Methods](#methods)
   * [Frameworks and codebases](#frameworks-and-codebases)
+  * [Datasets](#datasets)
 <!-- TOC -->
 
 ## Surveys
@@ -83,3 +84,5 @@
 | sammon                           | python   | Sammon mapping                                                                         | [Docs](https://github.com/tompollard/sammon)                   | [Code](https://github.com/tompollard/sammon)         |
 | trimap                           | python   | TriMap                                                                                 | [Docs](https://github.com/eamid/trimap )                       | [Code](https://github.com/eamid/trimap)              |
 | hnne                             | python   | h-NNE                                                                                  | [Docs](https://hnne.readthedocs.io/en/latest/index.html)       | [Code](https://github.com/koulakis/h-nne)            |
+
+## Datasets

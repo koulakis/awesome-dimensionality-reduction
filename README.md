@@ -98,6 +98,10 @@
 | Skewness                      | -         | [Skewness](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.skew.html) |
 | Kurtosis                      | -         | [Kurtosis](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kurtosis.html) |
 | Variation                     | -         | [Variation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.variation.html#scipy.stats.variation) |
+| Label-Trustworthiness                     | ↑         | [LT](https://github.com/hj-n/ltnc) |
+| Label-Continuity                     | ↑       | [LC](https://github.com/hj-n/ltnc) |
+
+
 
 ### Datasets
 

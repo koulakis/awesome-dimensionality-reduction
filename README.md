@@ -73,7 +73,33 @@
 | 2023 | Van Assel, Hugues, et al. | Snekhorn: Dimension reduction with symmetric entropic affinities      | Advances in Neural Information Processing Systems      | Snekhorn            | [Link](https://arxiv.org/abs/2305.13797)             | [Code](https://github.com/PythonOT/SNEkhorn)              |
 | 2024 | Wang, Yingfan, et al.     | Dimension Reduction with Locally Adjusted Graphs        | arXiv preprint arXiv:2412.15426          |      | [Link](https://arxiv.org/abs/2412.15426)             | [Code](https://github.com/williamsyy/LocalMAP)            |
 | 2024 | Yang, Deliang, and Hou-Duo Qi            | Supervised maximum variance unfolding    | Machine Learning          | SMVU | [Link](https://link.springer.com/article/10.1007/s10994-024-06553-8)              | [Code](https://github.com/dy1n16/SMVU-EDM)                |
-
+| 2018 | Minshuo Chen, Lin Yang, Mengdi Wang, Tuo Zhao | Dimensionality Reduction for Stationary Time Series via Stochastic Nonconvex Optimization | NeurIPS |  |  |  |
+| 2018 | Kry Lui, Gavin Weiguang Ding, Ruitong Huang, Robert McCann | Dimensionality Reduction has Quantifiable Imperfections: Two Geometric Bounds | NeurIPS |  |  |  |
+| 2018 | Mikio Aoi, Jonathan W Pillow | Model-based targeted dimensionality reduction for neuronal population data | NeurIPS |  |  |  |
+| 2019 | Michela Meister, Tamas Sarlos, David Woodruff | Tight Dimensionality Reduction for Sketching Low Degree Polynomial Kernels | NeurIPS |  |  |  |
+| 2019 | Yair Bartal, Nova Fandina, Ofer Neiman | Dimensionality reduction: theoretical perspective on practical measures | NeurIPS |  |  |  |
+| 2019 | Chieh Wu, Jared Miller, Yale Chang, Mario Sznaier, Jennifer Dy | Solving Interpretable Kernel Dimensionality Reduction | NeurIPS |  |  |  |
+| 2019 | Guan Zhang, Jiaxin Zhang, Jacob Hinkle | Learning nonlinear level sets for dimensionality reduction in function approximation | NeurIPS |  |  |  |
+| 2019 | Uthaipon Tantipongpipat, Samira Samadi, Mohit Singh, Jamie H Morgenstern, Santosh Vempala | Multi-Criteria Dimensionality Reduction with Applications to Fairness | NeurIPS |  |  |  |
+| 2020 | Benoît Colange, Jaakko Peltonen, Michael Aupetit, Denys Dutykh, Sylvain Lespinats | Steering Distortions to Preserve Classes and Neighbors in Supervised Dimensionality Reduction | NeurIPS |  |  |  |
+| 2020 | Dimitris Fotakis, Thanasis Lianeas, Georgios Piliouras, Stratis Skoulakis | Efficient Online Learning of Optimal Rankings: Dimensionality Reduction via Gradient Descent | NeurIPS |  |  |  |
+| 2021 | Zachary Izzo, Sandeep Silwal, Samson Zhou | Dimensionality Reduction for Wasserstein Barycenter | NeurIPS |  |  |  |
+| 2021 | Ines Chami, Albert Gu, Dat P Nguyen, Christopher Re | HoroPCA: Hyperbolic Dimensionality Reduction via Horospherical Projections | ICML |  | http://proceedings.mlr.press/v139/chami21a/chami21a-supp.pdf |  |
+| 2021 | Zhili Feng, Praneeth Kacham, David Woodruff | Dimensionality Reduction for the Sum-of-Distances Metric | ICML |  | http://proceedings.mlr.press/v139/feng21a/feng21a-supp.pdf |  |
+| 2021 | Aditi Jha, Michael J. Morais, Jonathan W Pillow | Factor-analytic inverse regression for high-dimension, small-sample dimensionality reduction | ICML |  | http://proceedings.mlr.press/v139/jha21b/jha21b-supp.pdf |  |
+| 2022 | Marius Memmel, Puze Liu, Davide Tateo, Jan Peters | Dimensionality Reduction and Prioritized Exploration for Policy Search | AISTATS |  | https://proceedings.mlr.press/v151/memmel22a/memmel22a.pdf |  |
+| 2022 | Saquib Sarfraz, Marios Koulakis, Constantin Seibold, Rainer Stiefelhagen | Hierarchical Nearest Neighbor Graph Embedding for Efficient Dimensionality Reduction | CVPR |  |  |  |
+| 2022 | Yunhui Guo, Haoran Guo, Stella X. Yu | CO-SNE: Dimensionality Reduction and Visualization for Hyperbolic Data | CVPR |  |  |  |
+| 2022 | Xiran Fan, Chun-Hao Yang, Baba C. Vemuri | Nested Hyperbolic Spaces for Dimensionality Reduction and Hyperbolic NN Design | CVPR |  |  |  |
+| 2022 | Alex R. Dytso, Mario Goldenbaum, H. Vincent Poor, Shlomo Shamai | A Dimensionality Reduction Method for Finding Least Favorable Priors with a Focus on Bregman Divergence | AISTATS |  | https://proceedings.mlr.press/v151/dytso22a/dytso22a.pdf |  |
+| 2023 | Guillaume Huguet, Alexander Tong, Edward De Brouwer, Yanlei Zhang, Guy Wolf, Ian Adelstein, Smita Krishnaswamy | A Heat Diffusion Perspective on Geodesic Preserving Dimensionality Reduction | NeurIPS |  |  |  |
+| 2023 | Xinyu Luo, Christopher Musco, Cas Widdershoven | Dimensionality Reduction for General KDE Mode Finding | ICML |  | https://proceedings.mlr.press/v202/luo23c/luo23c.pdf |  |
+| 2024 | Ziwei Li, Xiaoqi Wang, Hong-You Chen, Han Wei Shen, Wei-Lun (Harry) Chao | FedNE: Surrogate-Assisted Federated Neighbor Embedding for Dimensionality Reduction | NeurIPS |  |  |  |
+| 2024 | Mikael Møller Høgsgaard, Lior Kamma, Kasper Green Larsen, Jelani Nelson, Chris Schwiegelshohn | Sparse Dimensionality Reduction Revisited | ICML |  | https://raw.githubusercontent.com/mlresearch/v235/main/assets/hogsgaard24a/hogsgaard24a.pdf |  |
+| 2024 | Prarabdh Shukla, Gagan Raj Gupta, Kunal Dutta | DiffRed: Dimensionality reduction guided by stable rank | AISTATS |  | https://proceedings.mlr.press/v238/shukla24a/shukla24a.pdf |  |
+| 2024 | Charbel Sakr, Brucek Khailany | ESPACE: Dimensionality Reduction of Activations for Model Compression | NeurIPS |  |  |  |
+| 2024 | Haiyang Huang, Yingfan Wang, Cynthia Rudin | Navigating the Effect of Parametrization for Dimensionality Reduction | NeurIPS |  |  |  |
+| 2025 | Thomas Dagès, Simon Weber, Ya-Wei Eileen Lin, Ronen Talmon, Daniel Cremers, Michael Lindenbaum, Alfred M. Bruckstein, Ron Kimmel | Finsler Multi-Dimensional Scaling: Manifold Learning for Asymmetric Dimensionality Reduction and Embedding | CVPR |  |  |  |
 
 ## Frameworks and codebases
 | Name              | Language | Methods       | Documentation      | Code     |

@@ -6,13 +6,13 @@
 
 ## Contents
 <!-- TOC -->
-* [Awesome Dimensionality Reduction ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-dimensionality-reduction-)
-  * [Contents](#contents)
-  * [Surveys](#surveys)
-  * [Methods](#methods)
-  * [Frameworks and codebases](#frameworks-and-codebases)
-  * [Metrics](#metrics)
-  * [Datasets](#datasets)
+- [Awesome Dimensionality Reduction ](#awesome-dimensionality-reduction-)
+	- [Contents](#contents)
+	- [Surveys](#surveys)
+	- [Methods](#methods)
+	- [Frameworks and codebases](#frameworks-and-codebases)
+	- [Metrics](#metrics)
+		- [Datasets](#datasets)
 <!-- TOC -->
 
 ## Surveys
@@ -22,10 +22,13 @@
 | 2002 | Fodor, Imola K.          | A survey of dimension reduction techniques             | Lawrence Livermore National Lab           | 12 methods   | [Link](https://computing.llnl.gov/sites/default/files/148494.pdf)             |
 | 2009 | Van Der Maaten, Laurens, Eric O. Postma, and H. Jaap Van Den Herik   | Dimensionality reduction: A comparative review         | Journal of machine learning research      | 14 methods   | [Link](https://lvdmaaten.github.io/publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf)        |
 | 2014 | Sorzano, Carlos Oscar Sánchez, Javier Vargas, and A. Pascual Montano | A survey of dimensionality reduction techniques        | arXiv preprint              | 19 methods   | [Link](https://arxiv.org/pdf/1403.2877)          |
-| 2019 | Espadoto, Mateus, et al. | Toward a quantitative survey of dimension reduction techniques       | IEEE transactions on visualization and computer graphics | 44 methods   | [Link](https://cs.lnu.se/isovis/pubs/docs/espadoto-tvcg19-postprint.pdf)      |
+| 2018 | Nonato and Aupetit | Multidimensional projection for visual analytics: Linking techniques with distortions, tasks, and layout enrichment      | IEEE Transactions on visualization and computer graphics | 27 methods   | [Link](https://sites.icmc.usp.br/gnonato/pubs/mdp-survey.pdf)      |
+| 2019 | Espadoto, Mateus, et al. | Toward a quantitative survey of dimension reduction techniques       | IEEE Transactions on visualization and computer graphics | 44 methods   | [Link](https://cs.lnu.se/isovis/pubs/docs/espadoto-tvcg19-postprint.pdf)      |
 | 2020 | Ghojogh, Benyamin, et al.               | Multidimensional scaling, sammon mapping, and isomap: Tutorial and survey           | arXiv preprint arXiv:2009.08136           | MDS, Sammon Mapping, Isomap | [Link](https://arxiv.org/abs/2009.08136)         |
 | 2020 | S Ayesha, MK Hanif, R Talib             | Overview and comparative study of dimensionality reduction techniques for high dimensional data   | Information Fusion          | PCA, t-SNE, LDA, AE, UMAP   | [Link](https://www.sciencedirect.com/science/article/pii/S156625351930377X?casa_token=Fg530QgbktwAAAAA:6YpIkG67tJh4-GN2RHWh2z35BJVS9tR-IXgRAgAGa7uim5guJ_-1yBl22e2XwoL3-x4fwK4TJx8) |
 | 2021 | Wang, Yingfan, et al.    | Understanding how dimension reduction tools work: an empirical approach to deciphering t-SNE, UMAP, TriMAP, and PaCMAP for data visualization | Journal of Machine Learning Research      | t-SNE, UMAP, TriMAP, PaCMAP | [Link](https://jmlr.org/papers/volume22/20-1061/20-1061.pdf)    |
+| 2021 | Xia, Jiazhi, et al. | Revisiting dimensionality reduction techniques for visual cluster analysis: An empirical study   | IEEE Transactions on visualization and computer graphics | 12 methods   | [Link](https://arxiv.org/pdf/2110.02894)     |
+| 2025 | Jeon, Hyeon, et al. | Unveiling high-dimensional backstage: A survey for reliable visual analytics with dimensionality reduction   | 2025 ACM CHI Conference on Human Factors in Computing Systems | 48 methods   | [Link](https://www.hyeonjeon.com/assets/pdf/jeon25chi.pdf)     |
 
 
 ## Methods

@@ -130,18 +130,31 @@
 
 ## Metrics
 
-| Name                          | Optimality | Repo/Code |
-|-------------------------------|-----------|-----------|
-| Trustworthiness               | ↑         | [Trustworthiness](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.trustworthiness.html) |
-| k-nn Accuracy                 | ↑         | [k-NN](https://scikit-learn.org/stable/modules/neighbors.html), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) |
-| Centroid Triplet Accuracy      | ↑         | [CTA](https://github.com/YingfanWang/PaCMAP/blob/master/evaluation/evaluation.py) |
-| Time                          | ↓         | [Time](https://docs.python.org/3/library/time.html) |
-| Silhouette Score              | ↑         | [Silhouette Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html) |
-| Skewness                      | -         | [Skewness](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.skew.html) |
-| Kurtosis                      | -         | [Kurtosis](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kurtosis.html) |
-| Variation                     | -         | [Variation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.variation.html#scipy.stats.variation) |
-| Label-Trustworthiness                     | ↑         | [LT](https://github.com/hj-n/ltnc) |
-| Label-Continuity                     | ↑       | [LC](https://github.com/hj-n/ltnc) |
+
+| Name                                                 | Optimality | Range          | Optimum        | Source                                                                                                                |
+| ---------------------------------------------------- | ---------- | -------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Average Local Error                                  | ↓          | [0, +∞)        | 0              | [Martins et al., 2014](https://www.sciencedirect.com/science/article/pii/S0097849314000235)                                               |
+| Trustworthiness & Continuity                         | ↑          | [0.5, 1]       | 1              | [Venna & Kaski, 2006](https://www.sciencedirect.com/science/article/abs/pii/S0893608006000724)                        |
+| Mean Relative Rank Errors                            | ↑          | [0, 1]         | 1              | [Lee & Verleysen, 2009](https://www.sciencedirect.com/science/article/abs/pii/S0925231209000101)                      |
+| Local Continuity Meta-Criteria                       | ↑          | [0, 1]         | 1              | [Chen & Buja, 2009](https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.0111)                                       |
+| Neighborhood Hit                                     |  ↑          | [0, 1]         | 1              | [Paulovich et al., 2011](https://ieeexplore.ieee.org/abstract/document/4378370)                                                                                                              |
+| Neighbor Dissimilarity                               | ↓          | R+             | 0              | [Fujiwara et al., 2023](https://ieeexplore.ieee.org/abstract/document/10148450)                                       |
+| Class-Aware Trustworthiness & Continuity             | ↑          | [0.5, 1]       | 1              | [Colange et al., 2020](https://proceedings.neurips.cc/paper/2020/hash/99607461cdb9c26e2bd5f31b12dcf27a-Abstract.html) |
+| Procrustes Measure                                   | ↓          | R+             | 0              | [Goldberg & Ritov, 2009](https://link.springer.com/article/10.1007/s10994-009-5107-9)                                 |
+| Steadiness & Cohesiveness                            | ↑          | [0, 1]         | 1              | [Jeon et al., 2021](https://ieeexplore.ieee.org/document/9552206/)                                                    |
+| Distance Consistency                                 |  ↑          | [0.5, 1]       | 0.5            | [Sips et al., 2009](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01467.x)                         |
+| Label Trustworthiness & Continuity                   | ↑          | [0, 1]         | 1              | [Jeon et al., 2023](https://www.hyeonjeon.com/assets/pdf/jeon23tvcg.pdf)                                                                                                                 |
+| Stress                                               |  ↓          | R+             | 0              | [Kruskal, 1964](https://link.springer.com/article/10.1007/BF02289565)                                                 |
+| Non-metric Stress                                    |  ↓          | R+             | 0              | [Kruskal, 1964](https://link.springer.com/article/10.1007/BF02289565)                                                                                                                   |
+| Scale-normalized Stress                              |  ↓          | R+             | 0              | [Smelser et al., 2024](https://arxiv.org/pdf/2408.07724)                                                              |
+| Kullback-Leibler Divergence                          |  ↓          | R+             | 0              | [Hinton & Roweis, 2002](https://papers.nips.cc/paper/2276-stochastic-neighbor-embedding)                              |
+| Distance-to-Measure                                  | ↓          | R+             | 0              | [Chazal et al., 2011](https://link.springer.com/article/10.1007/s10208-011-9098-0)                                                                                                                |
+| Topographic Product                                  | ↓          | R              | 0              | [Bauer and Pawelzik, 1992](https://www.researchgate.net/profile/Klaus-Pawelzik/publication/5576537_Quantifying_the_neighborhood_preservation_of_self-organizing_feature_maps/links/02bfe50fd2e94d23d4000000/Quantifying-the-neighborhood-preservation-of-self-organizing-feature-maps.pdf)                                                                                                            |
+| Pearson's Correlation Coefficient                    | ↑          | [-1, 1]        | 1              | [Geng et al., 2005](https://ieeexplore.ieee.org/abstract/document/1542257)                                                                                                               |
+| Spearman's Rank Correlation Coefficient              |  ↑          | [-1, 1]        | 1              | [Sidney, 1957](https://journals.lww.com/jonmd/citation/1957/07000/NONPARAMETRIC_STATISTICS_FOR_THE_BEHAVIORAL.32.aspx)                                                                                                                |
+| Jaccard                                              |  ↑          | [0, 1]         | 1              | [Jaccard, 2001](https://cir.nii.ac.jp/crid/1570009751307275008)                                                                                                               |
+| Shepard Goodness                                     | ↑          | [-1, 1]        | 1              | [Siegel and Castellan, 1988](https://psycnet.apa.org/record/1988-97307-000)                                                                                                                |
+| Procrustes Statistic                                 |  ↓          | [0, +∞)        | 0              | [Goldberg and Ritov](https://link.springer.com/article/10.1007/s10994-009-5107-9)                                                                                                              |
 
 
 

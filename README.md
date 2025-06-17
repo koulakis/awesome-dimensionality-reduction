@@ -118,15 +118,18 @@
 | 2025 | Thomas Dagès, Simon Weber, Ya-Wei Eileen Lin, Ronen Talmon, Daniel Cremers, Michael Lindenbaum, Alfred M. Bruckstein, Ron Kimmel | Finsler Multi-Dimensional Scaling: Manifold Learning for Asymmetric Dimensionality Reduction and Embedding | CVPR |  |  |  |
 
 ## Frameworks and codebases
-| Name              | Language | Methods       | Documentation      | Code     |
-|----------------------------------|----------|----------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|
-| scikit-learn      | python   | PCA, t-SNE, Kernel PCA, FA, ICA, Isomap, LLE, LTSA, MDS and more        | [Docs](https://scikit-learn.org/stable/index.html)             | [Code](https://github.com/scikit-learn/scikit-learn) |
-| umap-learn        | python   | UMAP, Parametric UMAP, DensMap             | [Docs](https://umap-learn.readthedocs.io/en/latest/index.html) | [Code](https://github.com/lmcinnes/umap)             |
-| matlab toolbox for dim reduction | matlab   | PCA, SNE, t-SNE, FA, MDS, Sammon mapping, LDA, Isomap, LLE, LTSA, Kernel PCA, and more | [Docs](http://lvdmaaten.github.io/drtoolbox/)   | [Code](http://lvdmaaten.github.io/drtoolbox/)        |
-| scikit-tda        | python   | Mapper, Eilenberg-MacLane Coordinates      | [Docs](https://docs.scikit-tda.org/en/latest/libraries.html)   | [Code](https://github.com/scikit-tda) |
-| sammon            | python   | Sammon mapping               | [Docs](https://github.com/tompollard/sammon)    | [Code](https://github.com/tompollard/sammon)         |
-| trimap            | python   | TriMap        | [Docs](https://github.com/eamid/trimap )        | [Code](https://github.com/eamid/trimap)              |
-| hnne              | python   | h-NNE         | [Docs](https://hnne.readthedocs.io/en/latest/index.html)       | [Code](https://github.com/koulakis/h-nne)            |
+| Name              | Type | Language | Methods       | Documentation      | Code     |
+|----------------------------------|----------|----------|----------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|
+| scikit-learn      | Method | python   | PCA, t-SNE, Kernel PCA, FA, ICA, Isomap, LLE, LTSA, MDS and more        | [Docs](https://scikit-learn.org/stable/index.html)             | [Code](https://github.com/scikit-learn/scikit-learn) |
+| umap-learn        | Method | python   | UMAP, Parametric UMAP, DensMap             | [Docs](https://umap-learn.readthedocs.io/en/latest/index.html) | [Code](https://github.com/lmcinnes/umap)             |
+| matlab toolbox for dim reduction | Method | matlab   | PCA, SNE, t-SNE, FA, MDS, Sammon mapping, LDA, Isomap, LLE, LTSA, Kernel PCA, and more | [Docs](http://lvdmaaten.github.io/drtoolbox/)   | [Code](http://lvdmaaten.github.io/drtoolbox/)        |
+| scikit-tda        | Method | python   | Mapper, Eilenberg-MacLane Coordinates      | [Docs](https://docs.scikit-tda.org/en/latest/libraries.html)   | [Code](https://github.com/scikit-tda) |
+| sammon            | Method | python   | Sammon mapping               | [Docs](https://github.com/tompollard/sammon)    | [Code](https://github.com/tompollard/sammon)         |
+| trimap            | Method | python   | TriMap        | [Docs](https://github.com/eamid/trimap )        | [Code](https://github.com/eamid/trimap)              |
+| hnne              | Method | python   | h-NNE         | [Docs](https://hnne.readthedocs.io/en/latest/index.html)       | [Code](https://github.com/koulakis/h-nne)            |
+| zadu           | Metric | python   | -        | [Docs](https://github.com/hj-n/zadu) | [Code](https://github.com/hj-n/zadu)							|
+| tf-projection-qm | Metric | python  | -       | [Docs](https://github.com/amreis/tf-projection-qm) | [Code](https://github.com/amreis/tf-projection-qm) | 
+
 
 ## Metrics
 

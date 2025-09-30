@@ -115,6 +115,8 @@
 | 2024 | Prarabdh Shukla, Gagan Raj Gupta, Kunal Dutta | DiffRed: Dimensionality reduction guided by stable rank | AISTATS |  | https://proceedings.mlr.press/v238/shukla24a/shukla24a.pdf |  |
 | 2024 | Charbel Sakr, Brucek Khailany | ESPACE: Dimensionality Reduction of Activations for Model Compression | NeurIPS |  |  |  |
 | 2024 | Haiyang Huang, Yingfan Wang, Cynthia Rudin | Navigating the Effect of Parametrization for Dimensionality Reduction | NeurIPS |  |  |  |
+| 2024 | Haiyang Huang, Yingfan Wang, Cynthia Rudin | Navigating the Effect of Parametrization for Dimensionality Reduction | NeurIPS | ParamRepulsor | [Link](https://openreview.net/pdf?id=eYNYnYle41) | [Code](https://github.com/hyhuang00/ParamRepulsor) |
+| 2024 | Wang, Yingfan, et al. | Dimension Reduction with Locally Adjusted Graphs | arXiv preprint arXiv:2412.15426 | LocalMAP | [Link](https://arxiv.org/abs/2412.15426) | [Code](https://github.com/williamsyy/LocalMAP) |
 | 2025 | Thomas Dagès, Simon Weber, Ya-Wei Eileen Lin, Ronen Talmon, Daniel Cremers, Michael Lindenbaum, Alfred M. Bruckstein, Ron Kimmel | Finsler Multi-Dimensional Scaling: Manifold Learning for Asymmetric Dimensionality Reduction and Embedding | CVPR |  |  |  |
 
 ## Frameworks and codebases

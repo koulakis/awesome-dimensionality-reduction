@@ -124,6 +124,7 @@
 |----------------------------------|----------|----------|----------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|
 | scikit-learn      | Method | python   | PCA, t-SNE, Kernel PCA, FA, ICA, Isomap, LLE, LTSA, MDS and more        | [Docs](https://scikit-learn.org/stable/index.html)             | [Code](https://github.com/scikit-learn/scikit-learn) |
 | umap-learn        | Method | python   | UMAP, Parametric UMAP, DensMap             | [Docs](https://umap-learn.readthedocs.io/en/latest/index.html) | [Code](https://github.com/lmcinnes/umap)             |
+| TorchDR           | Method and metric | python | UMAP, t-SNE, PACMAP, LargeVis, PHATE, PCA, Kernel PCA, and evaluation metrics | [Docs](https://torchdr.github.io/) | [Code](https://github.com/TorchDR/TorchDR) |
 | matlab toolbox for dim reduction | Method | matlab   | PCA, SNE, t-SNE, FA, MDS, Sammon mapping, LDA, Isomap, LLE, LTSA, Kernel PCA, and more | [Docs](http://lvdmaaten.github.io/drtoolbox/)   | [Code](http://lvdmaaten.github.io/drtoolbox/)        |
 | scikit-tda        | Method | python   | Mapper, Eilenberg-MacLane Coordinates      | [Docs](https://docs.scikit-tda.org/en/latest/libraries.html)   | [Code](https://github.com/scikit-tda) |
 | sammon            | Method | python   | Sammon mapping               | [Docs](https://github.com/tompollard/sammon)    | [Code](https://github.com/tompollard/sammon)         |
